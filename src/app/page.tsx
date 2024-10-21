@@ -5,7 +5,7 @@ import Process from "./process/page";
 import Price from "./pricing/page";
 import Contact from "./contact/page"
 import About from "./about/page";
-
+import flowerImage from "@/../public/flower.jpg"
 export default function Home() {
   return (
   <div className="flex justify-center items-center flex flex-wrap">
@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <div className="flex flex-col items-center justify-center h-screen pt-20">
         <Image
-          src={require(`./pictures/flower.jpg`)}
+          src={flowerImage}
           alt="image"
           objectFit="cover"
           className="opacity-50 absolute top-20 left-0 w-full h-full"

@@ -1,10 +1,11 @@
 import Image from "next/image";
+import logoImage from '@../../../public/logo.jpg'
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-3 py-5 mx-auto flex items-center sm:flex-row flex-col">
         <Image
-          src={require(`../pictures/logo.jpg`)}
+          src={logoImage}
           alt=""
           width={100}
           height={100}

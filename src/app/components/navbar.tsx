@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from  "next/link";
+import logoImage from "@../../../public/logo.jpg"
 
 
 export default function Navbar() {
@@ -9,7 +10,7 @@ export default function Navbar() {
     
 
         <Image
-          src={require(`../pictures/logo.jpg`)}
+          src={logoImage}
           alt="Logo"
           width={100}
           height={100}

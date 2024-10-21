@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import logoImage from "@/../public/logo.jpg"
 
 export default function Contact() {
  
@@ -15,7 +16,7 @@ export default function Contact() {
    
       <div className="flex justify-center items-center flex-wrap text-pink-500 text-6xl ">
         <Image
-          src={require(`../pictures/logo.jpg`)}
+          src={logoImage}
           alt="logo"
           width={100}
           height={100}

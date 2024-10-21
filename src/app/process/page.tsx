@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import logoImage from "@/../public/logo.jpg"
 
 export default function Process() {
 
@@ -20,7 +21,7 @@ export default function Process() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-black-500 text-indigo-500 rounded-full inline-flex items-center justify-center">
                 <Image
-                  src={require(`../pictures/logo.jpg`)}
+                  src={logoImage}
                   alt="logo"
                   width={80}
                 />
@@ -47,7 +48,7 @@ export default function Process() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-black-500 text-indigo-500 rounded-full inline-flex items-center justify-center">
                 <Image
-                  src={require(`../pictures/logo.jpg`)}
+                  src={logoImage}
                   alt="logo"
                   width={80}
                 />
@@ -74,7 +75,7 @@ export default function Process() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-black-500 text-indigo-500 rounded-full inline-flex items-center justify-center">
                 <Image
-                  src={require(`../pictures/logo.jpg`)}
+                  src={logoImage}
                   alt="logo"
                   width={80}
                 />
@@ -101,7 +102,7 @@ export default function Process() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-black-500 text-indigo-500 rounded-full inline-flex items-center justify-center">
                 <Image
-                  src={require(`../pictures/logo.jpg`)}
+                  src={logoImage}
                   alt="logo"
                   width={80}
                   height={20}
